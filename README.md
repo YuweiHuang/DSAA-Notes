@@ -30,6 +30,7 @@ Learning note for data structure and algorithm analysis.
 #### 二叉树
 
 - [前中后序、层次遍历、BFS,DFS](https://blog.csdn.net/My_Jobs/article/details/43451187)
+
 #### 堆（优先队列）
 
 #### 并查集
@@ -39,6 +40,19 @@ Learning note for data structure and algorithm analysis.
 #### Trie树
 
 ### 图
+
+#### 存储结构
+
+- 邻接矩阵
+- 邻接表
+- 十字链表
+- 邻接多重表
+- 边集数组
+
+##### 遍历
+
+- BFS
+- DFS
 
 ### 字符串
 
