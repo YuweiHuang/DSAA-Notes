@@ -1,8 +1,8 @@
 class Stack(object):
     def __init__(self, size):
         self.__top = -1
-        self.__data = []
         self.__size = size
+        self.__data = [None for i in range(self.__size)]
 
     def isFull(self):
         return self.__top == self.__size-1
