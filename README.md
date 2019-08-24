@@ -24,13 +24,23 @@ Learning note for data structure and algorithm analysis.
 
 ### 栈和队列
 
+- 在python中栈可以用list简单实现，队列需要用collections中的deque
+
 ### 哈希表
 
 ### 树
 
+#### 存储结构
+
+- 双亲表示法
+- 孩子表示法
+- 孩子兄弟表示法
+
 #### 二叉树
 
-- [前中后序、层次遍历、BFS,DFS](https://blog.csdn.net/My_Jobs/article/details/43451187)
+- [前中后序(复杂度O(n))、层次遍历、BFS,DFS](https://blog.csdn.net/My_Jobs/article/details/43451187) 
+- 线索二叉树
+- 前中后序Morris遍历
 
 #### 堆（优先队列）
 
@@ -62,6 +72,13 @@ Learning note for data structure and algorithm analysis.
 #### 二分
 
 ### 排序
+
+- 冒泡
+- 选择
+- 插入
+- 快速
+- 希尔
+- 归并
 
 #### 快速排序
 
