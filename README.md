@@ -8,6 +8,7 @@ Learning note for data structure and algorithm analysis.
 - 《大话数据结构》kindle
 - 《C++必备手册》电子书
 - [常考题型](https://www.zhihu.com/question/24964987/answer/182447205?hb_wx_block=0)
+- [算法珠玑](https://soulmachine.gitbooks.io/algorithm-essentials/content/cpp/)
 
 ## 数据结构
 
