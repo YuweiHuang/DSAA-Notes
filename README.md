@@ -6,7 +6,7 @@ Learning note for data structure and algorithm analysis.
 
 - 《数据结构与算法设计--C语言描述》
 - 《大话数据结构》kindle
-- 《C++必备手册》电子书
+- [《C++必备手册》电子书](https://github.com/soulmachine/acm-cheat-sheet)
 - [常考题型](https://www.zhihu.com/question/24964987/answer/182447205?hb_wx_block=0)
 - [算法珠玑](https://soulmachine.gitbooks.io/algorithm-essentials/content/cpp/)
 
@@ -14,17 +14,19 @@ Learning note for data structure and algorithm analysis.
 
 ### 链表
 
-#### 单链表
+- [单链表](./linklist/singleLinkList.py)
 
-#### 静态链表
+- 静态链表
 
-#### 双向链表
+- [双向链表](./linklist/doubleLinkList.py)
 
-#### 循环链表
+- 循环链表
 
 ### 栈和队列
 
-- 在python中栈可以用list简单实现，队列需要用collections中的deque
+- [栈](./stack-queue/stack.py)
+- [队列](./stack-queue/queue.py)
+- 另外，在python中栈可以用list简单实现，队列需要用collections中的deque
 
 ### 哈希表
 
@@ -32,13 +34,14 @@ Learning note for data structure and algorithm analysis.
 
 #### 存储结构
 
-- 双亲表示法
-- 孩子表示法
-- 孩子兄弟表示法
+- [双亲表示法](./tree/parent_tree.py)
+- [孩子表示法](./tree/children_tree.py)
+- [孩子兄弟表示法](./tree/firstchild_rightsibling_tree.py)
 
 #### 二叉树
 
-- [前中后序(复杂度O(n))、层次遍历、BFS,DFS](https://blog.csdn.net/My_Jobs/article/details/43451187) 
+- [前中后序(复杂度O(n))、层次遍历、BFS,DFS解析](https://blog.csdn.net/My_Jobs/article/details/43451187) 
+- [几种遍历python](./tree/binary_tree.py)
 - 线索二叉树
 - 前中后序Morris遍历
 
