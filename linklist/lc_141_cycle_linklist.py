@@ -1,3 +1,4 @@
+# https: // leetcode-cn.com/explore/learn/card/linked-list/194/two-pointer-technique/744/
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -10,16 +11,18 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
+        # 1.将快慢指针指向头节点，快指针速度是慢指针的两倍
+        # 2.当快慢指针相遇的时候就说明链表有环，并且环的长度等于步数
         fp = head
-        lp = head
-        while fp != None and lp != None and fp.next != None and lp.next != None:
+        sp = head
+        while fp != None and sp != None and fp.next != None and sp.next != None:
             fp = fp.next
             if fp.next == None:
                 return False
             else:
                 fp = fp.next
-            lp = lp.next
-            if fp == lp:
+            sp = sp.next
+            if fp == sp:
                 return True
         return False
             
